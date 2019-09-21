@@ -1,3 +1,28 @@
+## industrial_robot_status_controller (melodic) - 0.1.2-1
+
+The packages in the `industrial_robot_status_controller` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro=melodic --track=melodic --edit industrial_robot_status_controller` on `Sat, 21 Sep 2019 16:42:54 -0000`
+
+These packages were released:
+- `industrial_robot_status_controller`
+- `industrial_robot_status_interface`
+
+Version of package(s) in repository `industrial_robot_status_controller`:
+
+- upstream repository: https://github.com/gavanderhoorn/industrial_robot_status_controller.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.13`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.42`
+
+
 ## industrial_robot_status_controller (kinetic) - 0.1.2-1
 
 The packages in the `industrial_robot_status_controller` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release industrial_robot_status_controller --rosdistro=kinetic` on `Sun, 12 May 2019 08:53:55 -0000`
