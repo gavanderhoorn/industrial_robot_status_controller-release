@@ -1,0 +1,12 @@
+Source: ros-noetic-industrial-robot-status-controller
+Section: misc
+Priority: optional
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-controller-interface, ros-noetic-hardware-interface, ros-noetic-industrial-msgs, ros-noetic-industrial-robot-status-interface, ros-noetic-pluginlib, ros-noetic-realtime-tools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-industrial-robot-status-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-controller-interface, ros-noetic-hardware-interface, ros-noetic-industrial-msgs, ros-noetic-pluginlib, ros-noetic-realtime-tools
+Description: A ros_control controller that reports robot status using the ROS-Industrial RobotStatus message.
