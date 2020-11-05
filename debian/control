@@ -1,0 +1,12 @@
+Source: ros-noetic-industrial-robot-status-interface
+Section: misc
+Priority: optional
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-hardware-interface
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-industrial-robot-status-interface
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-hardware-interface
+Description: Exposes ROS-Industrial's RobotStatus info from hardware_interfaces for consumption by ros_control controllers.
